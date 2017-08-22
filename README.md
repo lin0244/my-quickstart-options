@@ -8,7 +8,7 @@
 clone到本地
 `$ git clone https://github.com/865077695/my-quickstart-options.git`
 
-安装依赖
+安装依赖(可以先改成你自己想要的名字在cd)
 `cd my-quickstart-options`
 
 `$ npm install`
