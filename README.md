@@ -6,9 +6,12 @@
 * 内置两个路由，其中一个属于异步路由。
 #### 使用:
 clone到本地
-`$ git clone `
+`$ git clone https://github.com/865077695/my-quickstart-options.git`
+
 安装依赖
 `cd my-quickstart-options`
+
 `$ npm install`
+
 开始开发:
 `ng serve -o`
