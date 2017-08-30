@@ -17,3 +17,8 @@
 3. 开始开发:
 
       ng serve -o
+...........................................................
+下面记录一些坑吧
+1. 为什么ng-zorro在组件中使用不起作用？
+
+在每个使用ng-zorro的组件里都需要`import { NgZorroAntdModule } from 'ng-zorro-antd';`并且在@NgModule>imports里加上NgZorroAntdModule
