@@ -14,7 +14,7 @@
 4. ok. `ng serve -o`运行
 
 ### 与`ng new project`不同的地方。
-* 以下修改均是基于`ng new project` *
+**以下修改均是基于`ng new project`**
 1. 引入[ng-zorro](https://ng-zorro.github.io/#/docs/angular/introduce)依赖、按照需要修改了app.module.ts（在app.module.ts中引入了ng-Zorro）
 2. 修改`.angular-cli.json`内创建模块时的`prefix`(模块名前缀)为`my`。创建模块时会自动加前缀`my`来表示是使用者创建的，而不是从其他第三方引入的。
 
