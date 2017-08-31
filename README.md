@@ -12,6 +12,10 @@
 
         npm install @angular/cdk@2.0.0-beta.8
 4. ok. `ng serve -o`运行
+5. 
+localhost:4200/user/login---------登录页
+localhost:4200/user/logup---------注册页
+localhost:4200/lamp-status--------内容部分的其中一个路由
 
 ### 与`ng new project`不同的地方。
 **以下修改均是基于`ng new project`**
