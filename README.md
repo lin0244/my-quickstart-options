@@ -6,11 +6,11 @@
         npm install git@github.com:865077695/my-quickstart-options.git
 2. 安装依赖(有点bug，向下见tips2)
 
-    npm install
+        npm install
 
 3. 此时`ng serve -o`报错的话，是因为angular-cli最新版本使用NgZorroAnt有点bug(详见tips2)。执行以下命令消除这个bug:
 
-    npm install @angular/cdk@2.0.0-beta.8
+        npm install @angular/cdk@2.0.0-beta.8
 4. ok. `ng serve -o`运行
 
 ### 与`ng new project`不同的地方。
@@ -26,5 +26,5 @@
 1. 使用ng-zorro需要注意：在根 module 中需要import `NgZorroAntdModule.forRoot()`，在子 module 需要import `NgZorroAntdModule`.
 2. 在`ng serve`报错是因为ng最新版本暂不支持。将`@angular/cdk`切换回beta8.如下：[issues in NG-ZORRO](https://github.com/NG-ZORRO/ng-zorro-antd/issues/191)
 
-    npm install @angular/cdk@2.0.0-beta.8
+        npm install @angular/cdk@2.0.0-beta.8
 3. ngd有bug。暂未使用
