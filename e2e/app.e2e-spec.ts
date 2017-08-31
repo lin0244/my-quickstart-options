@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('my-quickstart-options App', () => {
+describe('my-ng-options App', () => {
   let page: AppPage;
 
   beforeEach(() => {
