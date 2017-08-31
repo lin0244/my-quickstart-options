@@ -1,7 +1,8 @@
-###介绍
+### 介绍
  quickstart项目目的是快速生成一个用于后台开发的模板。包含登录注册路由和content内容路由。在content路由内又加入了二级路由，用来显示不同的内容。这些二级路由拥有相同的顶部和左侧菜单。所以这些部分抽出来写在content.component组件内。
 ### 使用
 1. clone到本地
+
         npm install git@github.com:865077695/my-quickstart-options.git
 2. 安装依赖(有点bug，向下见tips2)
 
