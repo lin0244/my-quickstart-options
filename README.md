@@ -3,7 +3,7 @@
 ### 使用
 1. clone到本地
 
-        npm install git@github.com:865077695/my-quickstart-options.git
+        git clone git@github.com:865077695/my-quickstart-options.git
 2. 安装依赖(有点bug，向下见tips2)
 
         npm install
