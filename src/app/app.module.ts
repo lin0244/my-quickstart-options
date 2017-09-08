@@ -9,9 +9,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
 
+import { HttpService } from './service/http.service';
+import { TestHttpHeaderComponent } from './test-http-header/test-http-header.component';
+
 @NgModule({
   declarations: [
     AppComponent,
+    TestHttpHeaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -19,9 +23,9 @@ import { appRoutes } from './app.routes';
     HttpModule,
     BrowserAnimationsModule,
     NgZorroAntdModule.forRoot(),
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes, { useHash: true })
   ],
-  providers: [],
+  providers: [HttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
