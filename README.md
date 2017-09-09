@@ -26,7 +26,7 @@ localhost:4200/lamp-status--------内容部分的其中一个路由
 
 ### 分支new-learn：如何设置请求头
 
-### 分支skill
+### 分支skill: 主要是subject简单用法
 
 
 ### tips:
